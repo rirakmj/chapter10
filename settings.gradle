@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "chapter10"
+include ':ex10_01_activity'
+include ':ex10_02_artvote'
+include ':ex10_03'
+include ':ex10_04_implicit'
+include ':ex11_01_listview'
+include ':ex11_02_gridview'
+include ':ex11_03_gallery'
+include ':ex11_04_spinner'
